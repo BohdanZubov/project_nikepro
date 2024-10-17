@@ -1,0 +1,347 @@
+.main_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.main_first--section {
+  padding-bottom: 183px;
+  padding-top: 94px;
+  background-image: url("../image/group.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_first--section .main_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_first--img {
+  padding-left: 14px;
+}
+
+.main_first--title {
+  max-width: 640px;
+  font-family: Playfair Display;
+  font-size: 144px;
+  font-weight: 400;
+  line-height: 191.95px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main_second--title {
+  max-width: 540px;
+  font-family: Playfair Display;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 95.98px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main_first--text {
+  display: flex;
+  justify-content: center;
+  max-width: 508px;
+  margin-bottom: 41px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  color: #ffffff;
+}
+
+.main_first--btn {
+  width: 254px;
+  height: 67px;
+  padding: 20px 61px 20px 61px;
+  border-radius: 11px;
+  border: 0;
+  background-color: #8e32c6;
+  color: white;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+}
+
+/* SECTION 2 */
+
+.main_second--section {
+  width: 100%;
+  background-image: url("../image/Group 8 1.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 105px;
+  padding-bottom: 105px;
+}
+
+.main_second--line {
+  display: flex;
+  justify-content: center;
+  padding: 130px;
+  border-right: 50px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main_image p {
+  width: 100%;
+  max-width: 161px;
+}
+
+.main_image img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.main_second--image {
+  width: 100%;
+  max-width: 1110px;
+  height: 395px;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid #8e32c6;
+}
+
+.main_second--section .card:not(:last-child) {
+  display: flex;
+  align-items: center;
+  padding-right: 90px;
+  border-right: 1px solid white;
+}
+
+/* SECTION 3 */
+
+.main_third--section {
+  width: 100%;
+  background-image: url("../image/hin.png");
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 114px;
+  padding-top: 25px;
+}
+
+.background_flower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.main_third--section .main_container {
+  display: flex;
+  flex-direction: column;
+  max-width: 951px;
+}
+
+.main_card--text {
+  max-width: 255px;
+  background: linear-gradient(
+    136.55deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
+  border-radius: 10px;
+  padding: 49px 14px 29px 14px;
+  margin: 20px;
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.main_card--text:nth-child(2) {
+  background: linear-gradient(
+    136.55deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.main_card--text:nth-child(3) {
+  background: linear-gradient(
+    142.67deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  box-shadow: 0px 14px 0px -5px #b95a4c, 0px 30px 0px -13px #732f26;
+}
+
+.main_card--textcomment {
+  min-width: 228px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.main_card--data {
+  margin-top: 8px;
+  margin-bottom: 47px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+.main_card--info {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+.main_third--line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_third--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 24px;
+}
+
+.main_third--card--lowerpart {
+  display: flex;
+  gap: 5px;
+}
+
+.main_card--profilename {
+  margin-bottom: 3px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: white;
+}
+
+.main_card--profiledate {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  text-align: left;
+  color: #d8d8d8;
+}
+
+/* SECTION 4 */
+
+.main_forth--section {
+  width: 100%;
+  background-image: url(../image/fon4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 21px;
+  padding-bottom: 37px;
+}
+
+.main_forth--title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 63.98px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 33px;
+}
+
+.main_forth--form {
+  display: flex;
+  flex-direction: column;
+  max-width: 790px;
+  gap: 20px;
+  align-items: center;
+}
+
+.main_forth--firstline {
+  display: flex;
+  align-items: center;
+  width: 690px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 12px 25px;
+}
+
+.main_fourth--email {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 28px;
+  color: #959595;
+}
+
+.main_fourth--email[type="text"]::placeholder {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.81px;
+}
+
+.main_forth--inputbtn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #8d8d8d;
+  cursor: pointer;
+  padding-right: 78px;
+}
+
+.main_forth--line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main_second--input {
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 24px;
+  outline: none;
+  border: 0;
+  padding-top: 11px;
+  padding-left: 24px;
+  padding-bottom: 11px;
+}
+
+.main_forth--btn {
+  font-size: 24px;
+  border-radius: 16px;
+  background-color: #8e32c6;
+  width: 248px;
+  height: 68px;
+  border: 0;
+  color: #ffffff;
+}
